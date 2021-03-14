@@ -66,6 +66,14 @@ optional arguments:
   -Pheno Phenotype file with two columns, --Pheno Phenotype file with two columns
                         Phenotype file with two columns: IID and pheno
                         
+
+Currently PrsCAL has two functions:
+
+1. PrsCAL can be used to calculate PRS for equation you get from first Two Steps from LDpred
+
+2. PrsCAL can be also used for PRS summary statistics such odds ratios per statdation divitions, p-values, area under curve, percentile, such as Top 20% vs 80% percent etc.....
+
+
                         
 
 
