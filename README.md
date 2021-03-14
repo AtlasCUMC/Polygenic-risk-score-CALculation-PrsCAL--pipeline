@@ -79,6 +79,11 @@ Currently PrsCAL has two functions:
 2. PrsCAL can be also used for PRS summary statistics such odds ratios per statdation divitions, p-values, area under curve, percentile, such as Top 20% vs 80% percent etc.....
 
 
-                        
+
+# Step 1. PrsCAL calculation 
+
+This Step can be do only one time 1.
+
+
 
 
