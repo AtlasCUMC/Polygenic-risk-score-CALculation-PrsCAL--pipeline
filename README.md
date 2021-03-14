@@ -29,42 +29,47 @@ python PrsCAL.v1.1.py --help
 * (C) 2021 Nephrology Dept of Medicine 
 * Columbia University Medical Center
  *********************************************************************
-usage: PrsCAL.v1.1.py [-h] [-bf The plink bed format data]
-                      [-Method ldpred or p+t]
-                      [-out Define the name of output file]
-                      [-rf PRS equation file] [-PRS File name of PRS file]
+usage: PrsCAL.v1.1.py [-h] [-bf The plink bed/bim/fam format data]
+                      [-Method ldpred/p+t/stat] [-out Output file name]
+                      [-rf PRS equation file]
+                      [-PRS PRS file names from First Step PrsCAL]
                       [-PCA The frq file for each of the CHR]
                       [-Pheno Phenotype file with two columns]
 
-The PrsCAl is computational tool for genetic correlation and hertiability
-score estimation:
+The PrsCAL is a computational tool for calculation of polygenic score:
 
 optional arguments:
 
   -h, --help            show this help message and exit
   
-  -bf The plink bed format data, --bf The plink bed format data
+  -bf The plink bed/bim/fam format data, --bf The plink bed/bim/fam format data
                         The genotype data for PRS calucation in plink
-                        bed/bin/fam format
+                        bed/bim/fam format
                         
-  -Method ldpred or p+t, --Method ldpred or p+t
-                        For PRS calcualtion should be give ldpred or p+t
+  -Method ldpred/p+t/stat, --Method ldpred/p+t/stat
+                        For PRS calcualtion and summary statistics: Should be
+                        give ldpred or p+t or stat
                         
-  -out Define the name of output file, --out Define the name of output file
+  -out Output file name, --out Output file name
                         The name of output file
                         
   -rf PRS equation file, --rf PRS equation file
-                        The summary statistics file from ldpred first step
+                        PRS equation file from ldpred Step 1 and Step2, please
+                        see LDpred webiste for details
                         
-  -PRS File name of PRS file, --PRS File name of PRS file
-                        File name of PRS file
+  -PRS PRS file names from First Step PrsCAL, --PRS PRS file names from First Step PrsCAL
+                        PRS file name with two columns: Column 1=IID and
+                        Columna PRS
                         
-  -PCA The frq file for each of the CHR, --PCA The frq file for each of the CHR
+-PCA PCA file, --PCA PCA file
                         PCA file should contain IID, PC1, PC2, PC3, PC4, or
-                        more, Sex, Age and T2DM
+                        more, Sex, Age and T2DM. Currently PrsCAL only adjust
+                        for these covariates
                         
   -Pheno Phenotype file with two columns, --Pheno Phenotype file with two columns
-                        Phenotype file with two columns: IID and pheno
+                        Phenotype file with two columns: IID and pheno, for
+                        CASE=1 and Control=0
+
                         
 
 Currently PrsCAL has two functions:
