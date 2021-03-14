@@ -1,1 +1,1 @@
-# polygenic-risk-score-CALculation-PrsCAL-pipeline
+# Polygenic-risk-score-CALculation-PrsCAL-pipeline
