@@ -8,6 +8,20 @@ PrsCAL also using various R scripts to calculate all summary statistics for PRS.
 
 LDpred (https://github.com/bvilhjal/ldpred)
 
+# Install LDpred
+
+pip install ldpred
+
+pip install plinkio
+
+or if you need to install it locally you can try
+
+pip install --user plinkio
+
+Please for details see:
+
+https://github.com/bvilhjal/ldpred
+
 # Usage
 
 First download the PrsCAL from our github page:
