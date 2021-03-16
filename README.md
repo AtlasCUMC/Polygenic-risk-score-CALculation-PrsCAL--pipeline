@@ -21,13 +21,20 @@ cd Polygenic-risk-score-CALculation-PrsCAL--pipeline
 python PrsCAL.v1.1.py --help 
 
 ********************************************************************* 
+
 Atlas Khan
+
 Kiryluk Lab (http://www.columbiamedicine.org/divisions/kiryluk/) 
+
 Prs CALculation Tool (PrsCAL)
+
 Version 1.0.0 
+
 (C) 2021 Nephrology Dept of Medicine 
+
 Columbia University Medical Center
- *********************************************************************
+
+*********************************************************************
 usage: PrsCAL.v1.1.py [-h] [-bf The plink bed/bim/fam format data]
                       [-Method ldpred/p+t/stat] [-out Output file name]
                       [-rf PRS equation file]
