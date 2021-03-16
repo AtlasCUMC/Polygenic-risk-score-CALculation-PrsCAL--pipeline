@@ -1,6 +1,5 @@
 # Polygenic-risk-score-CALculation-PrsCAL-pipeline
 
-
 Polygenic risk score CALculation (PrsCAL) is polygenic score calculation pipeline based on LDpred (https://github.com/bvilhjal/ldpred). PrsCAL can be used only for the Step 3 of LDpred. For Step 1 and 2 please use LDpred and the details are here (https://github.com/bvilhjal/ldpred).
 
 PrsCAL also using various R scripts to calculate all summary statistics for PRS.
@@ -72,9 +71,9 @@ optional arguments:
 
                         
 
-Currently PrsCAL has two functions:
+# Currently PrsCAL has two functions:
 
-1. PrsCAL can be used to calculate PRS for equation you get from first Two Steps from LDpred
+1. PrsCAL can be used to calculate PRS for a equation you get from first Two Steps of LDpred
 
 2. PrsCAL can be also used for PRS summary statistics such odds ratios per statdation divitions, p-values, area under curve, percentile, such as Top 20% vs 80% percent etc.....
 
