@@ -3,7 +3,7 @@
 
 Polygenic risk score CALculation (PrsCAL) is polygenic score calculation pipeline based on LDpred (https://github.com/bvilhjal/ldpred). PrsCAL can be used only for the Step 3 of LDpred. For Step 1 and 2 please use LDpred and the details are here (https://github.com/bvilhjal/ldpred).
 
-PrsCAL using various R scripts to calculate all summary statistics for PRS.
+PrsCAL also using various R scripts to calculate all summary statistics for PRS.
 
 # Useful links
 
@@ -80,7 +80,7 @@ Currently PrsCAL has two functions:
 
 
 
-# Step 1. PrsCAL calculation 
+### Step 1. PrsCAL calculation 
 
 This Step can be do only one time 1.
 
@@ -89,17 +89,17 @@ Example:
 python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
 
 #####
-# Step 2. PrsCAL calculation
+### Step 2. PrsCAL calculation
 
 When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate all summary statistics for PRS
 
 ### 1. Not adjusted for Site
 
-python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1 PC2 PC3 PC4, or more, Age, Sex; Seprated by tab)
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1 PC2 PC3 PC4, or more, Age, Sex,T2DM1; Seprated by tab)
 
 ### 1. Adjusted for Site
 
-python PrsCAL.v1.2.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, Site; Seprated by tab)
+python PrsCAL.v1.2.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, T2DM1, Site; Seprated by tab)
 
 
 
