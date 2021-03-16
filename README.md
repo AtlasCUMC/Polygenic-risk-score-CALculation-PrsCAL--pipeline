@@ -84,6 +84,37 @@ Currently PrsCAL has two functions:
 
 This Step can be do only one time 1.
 
+Example:
+##
+python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
+
+#####
+# Step 2. PrsCAL calculation
+
+When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate all summary statistics for PRS
+
+### 1. Not adjusted for Site
+
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1 PC2 PC3 PC4, or more, Age, Sex; Seprated by tab)
+
+### 1. Adjusted for Site
+
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, Site; Seprated by tab)
+
+
+
+### Author
+
+Atlas Khan, Kiryluk Lab, Department of Medicine (Division Nephrology),Columbia University Medical Centre, New York, USA.
+
+Email: ak4046@cumc.columbia.edu and atlas.akhan@gmail.com
+
+
+
+
+
+
+
 
 
 
