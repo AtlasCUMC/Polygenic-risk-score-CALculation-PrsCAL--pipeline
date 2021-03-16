@@ -87,7 +87,7 @@ optional arguments:
 
 1. PrsCAL can be used to calculate PRS for a equation you get from first Two Steps of LDpred
 
-2. PrsCAL can be also used for PRS summary statistics such odds ratios per statdation divitions, p-values, area under curve, percentile, such as Top 20% vs 80% percent etc.....
+2. PrsCAL can be also used for PRS summary statistics calculations: Such as odds ratios per statdation divisions, p-values, area under curve (AUC), percentile, such as Top 20% vs 80% percentetc,...,
 
 
 
@@ -96,6 +96,7 @@ optional arguments:
 This Step can be do only one time 1.
 
 Example:
+
 ##
 python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
 
