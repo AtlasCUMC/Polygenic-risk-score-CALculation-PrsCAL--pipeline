@@ -93,14 +93,10 @@ optional arguments:
 
 ### Step 1. PrsCAL calculation 
 
-This Step can be do only one time 1.
+This Step can be do only one time 1:
 
-Example:
-
-##
 python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
 
-#####
 ### Step 2. PrsCAL calculation
 
 When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate all summary statistics for PRS
