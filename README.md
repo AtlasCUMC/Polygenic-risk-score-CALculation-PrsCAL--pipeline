@@ -36,10 +36,15 @@ Columbia University Medical Center
 
 *********************************************************************
 usage: PrsCAL.v1.1.py [-h] [-bf The plink bed/bim/fam format data]
+
                       [-Method ldpred/p+t/stat] [-out Output file name]
+                      
                       [-rf PRS equation file]
+                      
                       [-PRS PRS file names from First Step PrsCAL]
+                      
                       [-PCA The frq file for each of the CHR]
+                      
                       [-Pheno Phenotype file with two columns]
 
 The PrsCAL is a computational tool for calculation of polygenic score:
