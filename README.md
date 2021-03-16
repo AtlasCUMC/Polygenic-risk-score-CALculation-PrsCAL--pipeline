@@ -22,7 +22,7 @@ Please for details see:
 
 https://github.com/bvilhjal/ldpred
 
-# Usage
+# Usage of PrsCAL
 
 First download the PrsCAL from our github page:
 
