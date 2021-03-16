@@ -107,7 +107,7 @@ optional arguments:
 
 ### Step 1. PrsCAL calculation 
 
-This Step can be do only one time 1:
+This Step can be do only one time:
 
 python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
 
