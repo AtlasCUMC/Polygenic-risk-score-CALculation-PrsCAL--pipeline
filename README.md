@@ -99,7 +99,7 @@ python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno P
 
 ### 1. Adjusted for Site
 
-python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, Site; Seprated by tab)
+python PrsCAL.v1.2.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, Site; Seprated by tab)
 
 
 
