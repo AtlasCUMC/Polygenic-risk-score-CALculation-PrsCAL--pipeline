@@ -21,12 +21,12 @@ cd Polygenic-risk-score-CALculation-PrsCAL--pipeline
 python PrsCAL.v1.1.py --help 
 
 ********************************************************************* 
-* Atlas Khan
-* Kiryluk Lab (http://www.columbiamedicine.org/divisions/kiryluk/) 
-* Prs CALculation Tool (PrsCAL)
-* Version 1.0.0 
-* (C) 2021 Nephrology Dept of Medicine 
-* Columbia University Medical Center
+Atlas Khan
+Kiryluk Lab (http://www.columbiamedicine.org/divisions/kiryluk/) 
+Prs CALculation Tool (PrsCAL)
+Version 1.0.0 
+(C) 2021 Nephrology Dept of Medicine 
+Columbia University Medical Center
  *********************************************************************
 usage: PrsCAL.v1.1.py [-h] [-bf The plink bed/bim/fam format data]
                       [-Method ldpred/p+t/stat] [-out Output file name]
@@ -94,15 +94,15 @@ When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate 
 
 ### 1. Not adjusted for Site
 
-python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1 PC2 PC3 PC4, or more, Age, Sex,T2DM1; Seprated by tab)
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1; Separated by tab)
 
-### 1. Adjusted for Site
+### 1. Adjusted for Site or batches
 
-python PrsCAL.v1.2.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, PC1, PC2, PC3, PC4, or more, Age, Sex, T2DM1, Site; Seprated by tab)
+python PrsCAL.v1.2.py  -Method stat -PRS TEST (PRS file name get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by comma) -PCA PCA file (With columns: IID, PC1, PC2, PC3, PC4, or more, Age, Sex, T2DM1, Site; Separated by Tab)
 
 
 
-### Author
+# Author
 
 Atlas Khan, Kiryluk Lab, Department of Medicine (Division Nephrology),Columbia University Medical Centre, New York, USA.
 
