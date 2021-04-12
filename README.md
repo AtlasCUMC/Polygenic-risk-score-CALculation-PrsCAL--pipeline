@@ -123,7 +123,11 @@ python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno P
 
 python PrsCAL.v1.2.py  -Method stat -PRS TEST (PRS file name get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by comma) -PCA PCA file (With columns: IID, PC1, PC2, PC3, PC4, or more, Age, Sex, T2DM1, Site; Separated by Tab)
 
+### Phenotype coding
 
+Case=1 (CKD3 or greater)
+
+Control=0
 
 # Author
 
