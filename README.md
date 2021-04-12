@@ -117,7 +117,7 @@ When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate 
 
 ### 1. Not adjusted for Site
 
-python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns, IID, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1; Separated by tab)
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by commas) -PCA PCA file (With columns: IID, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1; Separated by tab)
 
 ### 1. Adjusted for Site or batches
 
