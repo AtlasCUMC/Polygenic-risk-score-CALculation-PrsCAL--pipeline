@@ -131,7 +131,9 @@ Control=0
 
 # Author
 
-Atlas Khan, Kiryluk Lab, Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
+Atlas Khan, 
+
+Kiryluk Lab, Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
 
 Email: ak4046@cumc.columbia.edu and atlas.akhan@gmail.com
 
