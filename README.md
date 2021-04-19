@@ -106,7 +106,7 @@ optional arguments:
 # Covariates and Phenotype files
 
 ### Covariates
-Adjust for four PCs (PC1-C4), Age, Sex, Diabetes and Site/Batches if pheno
+Adjust for four PCs (PC1-C4), Age, Sex, Diabetes and Site/Batches if any
 
 Covariates file should in tab delimited form:
 
