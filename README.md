@@ -103,30 +103,30 @@ optional arguments:
 
 2. PrsCAL can be also used for PRS summary statistics calculations: Such as odds ratios per statdation divisions, p-values, area under curve (AUC), percentile, such as Top 20% vs 80%,...,
 
-### Covariates and Phenotype files
+# Covariates and Phenotype files
 
-# Covariates
+### Covariates
 Adjust for four PCs (PC1-C4), Age, Sex, Diabetes and Site/Batches if pheno
 
 Covariates file should in tab delimited form:
 
 IID PC1 PC2 PC3 PC4 Age Sex Site (Optional) T2DM1
 
-# Sex coding
+### Sex coding
 
 Male=0
 
 Female=1
 
-# T2DM1
+### T2DM1
 Type2=1
 else=0
 
-# T2DM1
+### T2DM1
 
 Site1=1
 
-Site2=2
+Site2=2, etc
 
 
 # Phenotpe file
