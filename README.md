@@ -103,13 +103,46 @@ optional arguments:
 
 2. PrsCAL can be also used for PRS summary statistics calculations: Such as odds ratios per statdation divisions, p-values, area under curve (AUC), percentile, such as Top 20% vs 80%,...,
 
+### Covariates and Phenotype files
 
+# Covariates
+Adjust for four PCs (PC1-C4), Age, Sex, Diabetes and Site/Batches if pheno
+
+Covariates file should in tab delimited form:
+
+IID PC1 PC2 PC3 PC4 Age Sex Site (Optional) T2DM1
+
+# Sex coding
+
+Male=0
+
+Female=1
+
+# T2DM1
+Type2=1
+else=0
+
+# T2DM1
+
+Site1=1
+
+Site2=2
+
+
+# Phenotpe file
+Case=1 (CKD3 or greater)
+
+Control=0
+
+Phenotype file should in tab delimited form:
+
+IID pheno
 
 ### Step 1. PrsCAL calculation 
 
 This Step can be do only one time:
 
-python PrsCAL.v1.1.py  -Method p+t (or ldpred) -bf PLINK_format -rf TEST (p+t or ldpred)  -out TEST
+python PrsCAL.v1.1.py  -Method p+t -bf PLINK_format (Your plink format genotype data) -rf TEST (p+t or ldpred prefix) -out TEST
 
 ### Step 2. PrsCAL calculation
 
@@ -117,17 +150,13 @@ When run Step 1 or already you run the Step 1, PrsCAL can be used to caclulcate 
 
 ### 1. Not adjusted for Site
 
-python PrsCAL.v1.1.py  -Method stat -PRS TEST (get from PrsCAL step 1) (IID, PRS; seprated by commas) -Pheno Phenotype file with two columns (IID, pheno Separated by tab)  -PCA PCA file (With columns: IID, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1; Separated by tab)
+python PrsCAL.v1.1.py  -Method stat -PRS TEST (Get from PrsCAL step 1) (IID, PRS; seprated by commas) -Pheno Phenotype file with two columns (IID, pheno Separated by tab) -PCA PCA file (With columns: IID, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1; Separated by tab)
 
 ### 1. Adjusted for Site or batches
 
-python PrsCAL.v1.2.py  -Method stat -PRS TEST (PRS file name get from PrsCAL step 1)  -Pheno Phenotype file with two columns (IID, PRS; seprated by comma) -PCA PCA file (With columns: IID, PC1, PC2, PC3, PC4, or more, Age, Sex, T2DM1, Site; Separated by Tab)
+python PrsCAL.v1.1.py -Method stat -PRS TEST (Get from the PrsCAL step 1) (IID, PRS; seprated by commas) -Pheno Phenotype file with two columns (IID, pheno Separated by tab) -PCA PCA file (With columns: IID, PC1 PC2 PC3 PC4, or more, Age, Sex, T2DM1, Site; Separated by tab)
 
-### Phenotype coding
 
-Case=1 (CKD3 or greater)
-
-Control=0
 
 # Author
 
