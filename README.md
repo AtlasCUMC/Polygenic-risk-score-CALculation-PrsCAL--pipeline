@@ -161,7 +161,9 @@ python PrsCAL.v1.1.py -Method stat -PRS TEST (Get from the PrsCAL step 1) (IID, 
 
 The G1 and G2 variants are unique to African American. The allele frequencies for G1 and G2 alleles in African, Hispan and Europeans are 10-15%, 0.5-2% and < 0.01% respectivelly. Therefore we will need to adjust the CKD PRS for APOL1 genotype risk variants. We modified as follows: 
 
-![Equation1](https://user-images.githubusercontent.com/19254078/115612619-77f31180-a2b9-11eb-966c-3e48d9d28f40.png)
+![Equation1](https://user-images.githubusercontent.com/19254078/115612878-c0123400-a2b9-11eb-8d14-63c14dc93d77.png)
+
+
 
 
 ### Caculate the summary statistics for CKD PRS
