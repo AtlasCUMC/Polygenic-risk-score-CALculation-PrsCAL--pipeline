@@ -1,4 +1,4 @@
-![alt text](file:///Users/Akhan/Desktop/Screen%20Shot%202021-04-21%20at%203.56.28%20PM.png)
+
 
 # Polygenic-risk-score-CALculation-PrsCAL-pipeline
 
