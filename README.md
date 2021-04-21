@@ -1,3 +1,5 @@
+![alt text](file:///Users/Akhan/Desktop/Screen%20Shot%202021-04-21%20at%203.56.28%20PM.png)
+
 # Polygenic-risk-score-CALculation-PrsCAL-pipeline
 
 Polygenic risk score CALculation (PrsCAL) is a polygenic score calculation pipeline based on LDpred (https://github.com/bvilhjal/ldpred). PrsCAL can be used only for the Step 3 of LDpred. For Step 1 and 2 please use LDpred and the details are here (https://github.com/bvilhjal/ldpred).
@@ -164,11 +166,9 @@ The G1 and G2 variants are unique to African American. The allele frequencies fo
 ![Equation1](https://user-images.githubusercontent.com/19254078/115612878-c0123400-a2b9-11eb-8d14-63c14dc93d77.png)
 
 
-
-
 ### Caculate the summary statistics for CKD PRS
 
-Here we will calcualte ORs, variacne explain and top percentiles using PRSCAL step 2: 
+Here we will calcualte ORs, variacne explain and top percentiles using PrsCAL step 2: 
 
 ### 1. Not adjusted for Site
 
@@ -185,13 +185,4 @@ Atlas Khan,
 Kiryluk Lab, Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
 
 Email: ak4046@cumc.columbia.edu and atlas.akhan@gmail.com
-
-
-
-
-
-
-
-
-
 
