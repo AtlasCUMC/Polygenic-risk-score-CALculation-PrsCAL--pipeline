@@ -156,7 +156,7 @@ python PrsCAL.v1.1.py  -Method stat -PRS TEST (Get from PrsCAL step 1) (IID, PRS
 
 ### 1. Adjusted for Site or batches
 
-python PrsCAL.v1.1.py -Method stat -PRS TEST (Get from the PrsCAL step 1) (IID, PRS; seprated by commas) -Pheno Phenotype_file -PCA Covariates_file -out TEST
+python PrsCAL.v1.2.py -Method stat -PRS TEST (Get from the PrsCAL step 1) (IID, PRS; seprated by commas) -Pheno Phenotype_file -PCA Covariates_file -out TEST
 
 
 # Adjust for APOL1 risk variants
