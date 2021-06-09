@@ -182,7 +182,7 @@ python PrsCAL.v1.1.py -Method stat -PRS TEST (Get from the PrsCAL step 1) (IID, 
 
 Atlas Khan, 
 
-Kiryluk Lab, Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
+Kiryluk Lab (http://www.columbiamedicine.org/divisions/kiryluk/), Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
 
 Email: ak4046@cumc.columbia.edu and atlas.akhan@gmail.com
 
