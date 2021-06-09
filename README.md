@@ -124,7 +124,7 @@ Female=1
 Type2=1
 else=0
 
-### T2DM1
+### Site
 
 Site1=1
 
