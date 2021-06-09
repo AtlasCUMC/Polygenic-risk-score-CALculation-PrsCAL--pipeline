@@ -13,7 +13,7 @@ if (length(args)==0) {
 ##################
 #f1$New <- .bincode(f1[,2], breaks = quantile(f1[,2], seq(0, 1, by = 0.1)), include.lowest = TRUE)
 
-f1 <- read.delim(args[1], header=T)  #### PRS
+f1 <- read.csv(args[1], header=T)  #### PRS
 f2 <-  read.delim(args[2], header=T) #### Pheno
 f3 <-  read.delim(args[3], header=T) #### PCs
 
