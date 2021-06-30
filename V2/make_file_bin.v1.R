@@ -44,8 +44,10 @@ l1 <- which(f6$Age>=40)
 #####Normaliztion of PRS ####
 
 f6 <- f6[l1,]
-control <- f6[which(f6$pheno==0),]
-f6$Stand_PRS <- (f6$PRS-(mean(control$PRS)))/(sd(control$PRS))
+#control <- f6[which(f6$pheno==0),]
+#f6$Stand_PRS <- (f6$PRS-(mean(control$PRS)))/(sd(control$PRS))
+
+f6$Stand_PRS <-  f6$PRS
 
 N <- dim(f6)[1]
 
