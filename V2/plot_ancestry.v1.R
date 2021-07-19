@@ -113,5 +113,5 @@ p2 <- ggplot(data=f_all, aes(x=adjusted_score, group=Population, fill=Population
     labs(title="",x="Genome-wide polygenic score", y = "Density") +
     theme_classic()
 p2
-
+dev.off()
 
