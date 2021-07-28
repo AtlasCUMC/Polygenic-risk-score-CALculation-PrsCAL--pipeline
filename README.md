@@ -168,7 +168,7 @@ The G1 and G2 variants are unique to African American. The allele frequencies fo
 
 ### Caculate the summary statistics for CKD PRS
 
-Here we will calcualte ORs, variacne explain and top percentiles using PrsCAL step 2: 
+Here we will calcualte ORs, variance explain and top percentiles using PrsCAL step 2: 
 
 ### 1. Not adjusted for Site
 
