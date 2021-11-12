@@ -116,9 +116,9 @@ IID PC1 PC2 PC3 PC4 Age Sex Site (Optional) T2DM1
 
 ### Sex coding
 
-Male=0
+Male=1
 
-Female=1
+Female=0
 
 ### T2DM1
 Type2=1
